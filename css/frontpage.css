@@ -1,0 +1,36 @@
+#b11{
+    gap: 15px;
+    text-align: center;
+    background-color:whitesmoke;
+    color: rgb(60, 23, 243);
+    text-rendering: optimizeSpeed;
+}
+#fa-dog{
+    color: brown;
+}
+
+#fa-cat{
+    color: rgb(54, 53, 53);
+}
+
+#h13{
+    text-align: center;
+    display: block;
+    color: rgb(243, 19, 224);
+    background-color: rgb(14, 14, 14);
+    width:100%;
+}
+
+.fa-heart{
+    color: red;
+}  
+
+
+.pet{
+    display: flex;
+    gap: 40px;
+}
+
+.card{
+    text-align: center;
+}
