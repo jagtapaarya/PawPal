@@ -34,6 +34,9 @@
      border-color: 5px solid red;
 }
 .pet-img{
+    width: 500px;
+    height: 350px;
+    object-fit: cover;
     border: 4px solid black;
     border-radius: 15px;
 }
@@ -48,4 +51,30 @@ img:hover{
 #ab{
     text-align: center;
     color:blueviolet;
+}
+
+#footer{
+    text-align: center;
+    color:black;
+    text-decoration: italic;
+}
+
+body{
+    background: linear-gradient(
+        to bottom,
+        #fff8e7,
+        #f3e5ff
+    );
+}
+.floating-paw{
+    position:fixed;
+    right:20px;
+    bottom:20px;
+    font-size:40px;
+    animation: bounce 2s infinite;
+}
+
+@keyframes bounce{
+    0%,100%{transform:translateY(0);}
+    50%{transform:translateY(-15px);}
 }
