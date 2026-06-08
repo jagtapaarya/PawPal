@@ -28,9 +28,24 @@
 
 .pet{
     display: flex;
-    gap: 40px;
+    justify-content: center;
+    gap: 80px;
+    padding: 20px;
+     border-color: 5px solid red;
+}
+.pet-img{
+    border: 4px solid black;
+    border-radius: 15px;
 }
 
 .card{
     text-align: center;
+}
+
+img:hover{
+    transform: scale(1.05);
+}
+#ab{
+    text-align: center;
+    color:blueviolet;
 }
