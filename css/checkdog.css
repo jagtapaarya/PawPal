@@ -1,0 +1,43 @@
+body{
+    text-align:center;
+    font-family:Arial, sans-serif;
+}
+
+h1{
+    color:darkblue;
+}
+
+marquee{
+    color:purple;
+    font-size:24px;
+    font-weight:bold;
+}
+
+#status{
+    font-size:30px;
+    margin-top:20px;
+}
+
+body{
+    background: linear-gradient(
+        to bottom,
+        #fff8e7,
+        #f3e5ff
+    );
+}
+
+#doggy{
+    padding-top:  150 px;
+   font-size:xx-large;
+}
+
+#status{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+marquee{
+    font-size: 28px;
+    font-weight: bold;
+    color: purple;
+}

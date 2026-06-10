@@ -25,3 +25,9 @@ video:hover{
     justify-content:center;
     margin-top:20px;
 }
+
+#petBtn{
+    width:150px;
+    height:50px;
+    font-size:25px;
+}
