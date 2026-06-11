@@ -1,0 +1,31 @@
+body{
+    text-align:center;
+    font-family:Arial, sans-serif;
+}
+
+h1{
+    color:darkblue;
+}
+
+progress{
+    width:400px;
+    height:30px;
+}
+
+input[type="range"]{
+    width:300px;
+}
+
+#message{
+    font-size:25px;
+    font-weight:bold;
+    color:red;
+}
+
+body{
+    background: linear-gradient(
+        to bottom,
+        #fff8e7,
+        #f3e5ff
+    );
+}

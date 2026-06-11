@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Feed Buddy</title>
+    <link rel="stylesheet" href="../css/feeddog.css">
+</head>
+<body>
+
+    <h1>🍖 Feed Buddy 🐶</h1>
+
+    <img id="dogImage" src="./pup_sad.webp" width="300">
+
+    <h2>Bowl Capacity: <span id="capacity"></span></h2>
+
+    <progress id="bowlBar" value="0" max="100"></progress>
+
+    <br><br>
+
+    <label>🍖 Meat: </label>
+   
+    <input type="number" id="meat" min="0" max="100" value="0">
+
+    <br><br>
+
+    <label>🐟 Fish: </label>
+    
+    <input type="number" id="fish" min="0" max="100" value="0">
+
+    <br><br>
+
+    <label>🦴 Pedigree:</label>
+    
+    <input type="number" id="pedigree" min="0" max="100" value="0">
+
+    <p id="message"></p>
+
+    
+
+
+    <script src="../js/hungry.js"></script>
+
+
+
+    <script src="../js/checkdog.js"></script>
+
+</body>
+</html>

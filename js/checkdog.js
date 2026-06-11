@@ -9,6 +9,11 @@ function updateMood() {
     if (mood <=50) {
         status.innerHTML = "<b>Hungry 🍖</b>";
         dogImage.src = "pup_sad.webp";
+
+        dogImage.onclick = function() {
+        window.location.href = "hungry.html";
+    };
+
     }
 
     else if (mood < 100) {
