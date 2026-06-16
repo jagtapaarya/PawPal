@@ -1,0 +1,71 @@
+body{
+    background-color:#1a1a2e;
+    color:white;
+    text-align:center;
+    transition:2s;
+    font-family:Arial;
+}
+
+#dogImage{
+    
+    transition: 1s;
+
+    width:350px;
+    border-radius:20px;
+    box-shadow:0px 0px 20px white;
+}
+
+.stars{
+    font-size:35px;
+    margin-top:20px;
+}
+
+.zzz{
+    font-size:40px;
+    animation: float 2s infinite;
+}
+
+@keyframes float{
+
+    0%{
+        transform:translateY(0);
+    }
+
+    50%{
+        transform:translateY(-20px);
+    }
+
+    100%{
+        transform:translateY(0);
+    }
+}
+
+#timer{
+    color:gold;
+}
+
+#energy{
+    color:lightgreen;
+    font-size:28px;
+}
+.stars{
+    font-size:35px;
+    margin-top:20px;
+}
+.fa-moon{
+    color: gold;
+}
+.fa-star{
+    color: gold;
+    animation: twinkle 1.5s infinite alternate;
+}
+
+@keyframes twinkle{
+    from{
+        opacity:0.5;
+    }
+
+    to{
+        opacity:1;
+    }
+}
