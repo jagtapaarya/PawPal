@@ -1,2 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Check On My Cat</title>
+    <link rel="stylesheet" href="../css/checkpersu.css">
+</head>
+<body>
 
-!
+    <h1>Checking On Kitty 🐱</h1>
+
+    <marquee scrollamount="15">
+        🐾 Kitty is purring and waiting for cuddles! 🐾
+    </marquee>
+
+    <br><br>
+
+    <label><b id="catty">Cat Mood Meter</b></label>
+    <br><br>
+
+    <input type="number" id="moodRange" min="0" max="100" value="0">
+
+    <p id="status"></p>
+
+    <img id="catImage" src="./persu_happy.webp" width="500" height="500">
+
+    <br><br>
+
+    <script src="../js/checkcat.js"></script>
+    <script src="../js/hungrycat.js"></script>
+
+</body>
+</html>

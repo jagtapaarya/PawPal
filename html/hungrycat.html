@@ -1,1 +1,37 @@
-sleepycat.html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Feed Kitty</title>
+    <link rel="stylesheet" href="../css/feedcat.css">
+</head>
+<body>
+
+    <h1>🐟 Feed Kitty 🐱</h1>
+
+    <img id="catImage" src="./persu_sad.jpg" width="300">
+
+    <h2>Bowl Capacity: <span id="capacity"></span></h2>
+
+    <progress id="bowlBar" value="0" max="100"></progress>
+
+    <br><br>
+
+    <label>🐟 Fish:</label>
+    <input type="number" id="fish" min="0" max="100" value="0">
+
+    <br><br>
+
+    <label>🥛 Milk:</label>
+    <input type="number" id="milk" min="0" max="100" value="0">
+
+    <br><br>
+
+    <label>🐱 Cat Food:</label>
+    <input type="number" id="catfood" min="0" max="100" value="0">
+
+    <p id="message"></p>
+
+    <script src="../js/fedcat.js"></script>
+
+</body>
+</html>
